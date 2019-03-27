@@ -1,1 +1,1 @@
-![](https://tenor.com/YE6w.gif)
+![](https://i.imgur.com/gU2tHtN.gif)
