@@ -28,6 +28,8 @@ Demo available on [Youtube](https://www.youtube.com/watch?v=PSi9F99n9rk).
                             should show a completely flat response for one (both?) of these
                             files, so I was trying to add a GAIN array that would handle that.
                             I don't have anything working yet.
+         Songs/*          Not included here to avoid any copyright violations, but you can give
+                            the sim any wav file. I used youtube-dl and ffmpeg to grab several.
 ```
 
 ### TODO<hr>
