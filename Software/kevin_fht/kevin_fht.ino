@@ -65,7 +65,8 @@ void setup() {
       delay(1);
   }
 
-  for (uint8_t i = 0; i < kMatrixWidth + kMatrixHeight; i > 0;i--) {
+/*
+  for (uint8_t i = 0 ; i < kMatrixWidth + kMatrixHeight; i--) {
     for (uint8_t y = kMatrixHeight-1 ; y > kMatrixHeight-i ; y--) {
       for (uint8_t x = kMatrixWidth-i ; x < kMatrixWidth ; x++) {
         Serial.print(x); Serial.print(","); Serial.print(y); Serial.print(" ");
@@ -75,6 +76,7 @@ void setup() {
     }
     Serial.print("\n---\n");
   }
+*/
 
   // set the ADC clock speed to 1 Mhz
   sbi(ADCSRA, ADPS2);
@@ -105,7 +107,7 @@ void loop() {
 
     //Serial.println();
 
-    if (k_max > 1000) {
+    if (k_max > 2000) {
 
       //_sampling = micros()-t0;
       //Serial.print("Sample time = "); Serial.println(_sampling/1000);
