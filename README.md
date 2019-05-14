@@ -35,4 +35,4 @@ Demo available on [Youtube](https://www.youtube.com/watch?v=PSi9F99n9rk).
 ### TODO<hr>
 - **Sound bar**: Will house the power adapter, amplifier, and all other circuitry. When I make this, I will create a PCB.
 - **Themes**: Matrix, Fireplace, "Sticky" Peaks, maybe even Pong?
-- **Display Tuning**: Equalize the display with the white or pink noise files
+- **Display Tuning**: Equalize the display with the white or pink noise files. Also, is alpha-smoothing needed?
